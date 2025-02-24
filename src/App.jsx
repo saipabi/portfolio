@@ -3,8 +3,7 @@ import MyNavbar from "./components/Navbar";
 import Home from "./components/Home";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
-// import Projects from "./components/Exper";
-// import Contact from "./components/Contact";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css'
 
