@@ -41,7 +41,7 @@ web applications.
               <b><h6>Talent acquisition:</h6></b> <p>Used job portals, social media, and referrals to attract top candidates.</p>
               <b><h6>Stakeholder collaboration:</h6></b> <p>Worked closely with hiring managers to understand job requirements and deliver the right talent.</p>
               <b><h6>Interview co-ordination: </h6></b><p>Conducted initial HR interviews and scheduled technical rounds with department heads.</p>
-              <b><h6>HR Policies:</h6></b> <p>Developed and implemented comprehensive HR pollicies  and procedures to ensure compiiance with laws and regulations.</p>
+              <b><h6>HR Policies:</h6></b> <p>Developed and implemented comprehensive HR policies  and procedures to ensure compliance with laws and regulations.</p>
               <b><h6>Relationship:</h6></b> <p> Managed employee-relations issues, including grievances, disputes, and disciplinary action.</p>
              <h3>Certification & Projects</h3><b><p>Full Stack Developer Program (2024)</p></b>
              
