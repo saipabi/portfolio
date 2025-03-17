@@ -3,11 +3,11 @@ import { FaLinkedin, FaPhoneAlt, FaEnvelope, FaGithub, FaLink } from 'react-icon
 
 const Work = () => {
   return (
-    <Container className="mt-5">
-      <Row className="justify-content-center">
+    <Container fluid className="d-flex justify-content-center align-items-center vh-100">
+      <Row className="justify-content-center align-items-center w-100">
         {/* Work With Me Section */}
         <Col md={5} className="mb-4">
-          <Card className="p-4 shadow-sm border-0 h-80 w-80 bg-black text-primary">
+          <Card className="p-4 shadow-sm border-0 h-100 bg-black text-primary">
             <Card.Body>
               <h2 id="textit" className="text-primary fw-bold" style={{ lineHeight: '1.2' }}>
                 WORK<br />WITH ME
