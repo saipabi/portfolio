@@ -18,7 +18,7 @@ const projects = [
   
 
   {
-    title: 'MERN To do Application',
+    title: 'MERN To dos Application',
     imageUrl: '/todo.jpg',
     githubLink: 'https://github.com/saipabi/frontend-todo', 
     netlifyLink: 'https://mern-todo-app-com.netlify.app/' 
