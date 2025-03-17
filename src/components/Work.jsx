@@ -32,8 +32,8 @@ const Work = () => {
                 </li>
                 <li className="d-flex align-items-center mb-2">
                   <FaLink className="me-2 text-info" />
-                  <a href="https://reme.com/suriya_raj" target="_blank" rel="noopener noreferrer">
-                    reme.com/suriya_raj
+                  <a href="https://drive.google.com/file/d/1HdrBUrjAHwQRhB2Ay2TpVz5WaZrxi9wa/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                    resume.com/suriya_raj
                   </a>
                 </li>
               </ul>
