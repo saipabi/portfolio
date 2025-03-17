@@ -3,15 +3,14 @@ import { FaLinkedin, FaPhoneAlt, FaEnvelope, FaGithub, FaLink } from 'react-icon
 
 const Work = () => {
   return (
-    <Container fluid className="d-flex justify-content-center align-items-center vh-100 ">
-      <Row className="justify-content-center align-items-center w-100">
+    <Container fluid className="d-flex justify-content-center align-items-center vh-100" id="done">
+      <Row className="justify-content-center align-items-start w-100">
+
         {/* Work With Me Section */}
-        <Col md={5} className="mb-4">
-          <Card className="p-4 shadow-sm border-0 h-100 bg-black text-primary">
-            <Card.Body>
-              <h2 id="textit" className="text-primary fw-bold" style={{ lineHeight: '1.2' }}>
-                WORK<br />WITH ME
-              </h2>
+        <Col md={5} className="d-flex">
+          <Card className="p-4 shadow-sm border-0 bg-black text-primary w-100 h-100 text-center">
+            <Card.Body className="d-flex flex-column align-items-center justify-content-start">
+              <h2 className="text-primary fw-bold mb-3">WORK WITH ME</h2>
               <ul className="list-unstyled mt-3">
                 <li className="d-flex align-items-center mb-2">
                   <FaLinkedin className="me-2 text-primary" />
@@ -20,22 +19,20 @@ const Work = () => {
                   </a>
                 </li>
                 <li className="d-flex align-items-center mb-2">
-                  <FaPhoneAlt className="me-2 text-success" />
-                  6381565927
+                  <FaPhoneAlt className="me-2 text-success" /> 6381565927
                 </li>
                 <li className="d-flex align-items-center mb-2">
-                  <FaEnvelope className="me-2 text-danger" />
-                  saipabi123@gmail.com
+                  <FaEnvelope className="me-2 text-danger" /> saipabi123@gmail.com
                 </li>
                 <li className="d-flex align-items-center mb-2">
-                  <FaGithub className="me-2 text-dark" />
+                  <FaGithub className="me-2 text-light" />
                   <a href="https://github.com/saipabi" target="_blank" rel="noopener noreferrer">
                     github.com/saipabi
                   </a>
                 </li>
                 <li className="d-flex align-items-center mb-2">
                   <FaLink className="me-2 text-info" />
-                  <a href="https://drive.google.com/file/d/1HdrBUrjAHwQRhB2Ay2TpVz5WaZrxi9wa/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                  <a href="https://reme.com/suriya_raj" target="_blank" rel="noopener noreferrer">
                     reme.com/suriya_raj
                   </a>
                 </li>
@@ -45,12 +42,10 @@ const Work = () => {
         </Col>
 
         {/* Work Experience Section */}
-        <Col md={5} className="mb-4">
-          <Card className="p-4 shadow-sm border-0 h-100 bg-black text-primary">
-            <Card.Body>
-              <h2 className="text-primary fw-bold" id="textit" style={{ lineHeight: '1.2' }}>
-                WORK<br />EXPERIENCE
-              </h2>
+        <Col md={5} className="d-flex">
+          <Card className="p-4 shadow-sm border-0 bg-black text-primary w-100 h-100 text-center">
+            <Card.Body className="d-flex flex-column align-items-center justify-content-start">
+              <h2 className="text-primary fw-bold mb-3">WORK EXPERIENCE</h2>
               <ul className="list-unstyled mt-3">
                 <li className="mb-2">Work At</li>
                 <li className="mb-2">HR Specialist (2011 - 2015)</li>
@@ -59,6 +54,7 @@ const Work = () => {
             </Card.Body>
           </Card>
         </Col>
+
       </Row>
     </Container>
   );
