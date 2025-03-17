@@ -7,20 +7,20 @@ const Education = () => {
   return (
     <>
     <Container className='mt-5'>
-      <h1 className=' moving-text text-center mb-4'>Education and Projects</h1>
+      <h1 className=' moving-text text-center mb-4 text-white'>Education and Projects</h1>
       <Row className='justify-content-center'>
         <Col md={6}>
-          <Card className='mb-4 shadow-sm'>
+          <Card className='mb-4 shadow-sm bg-black text-white'>
             <Card.Body>
               <Card.Title>MA in Human Resource Management</Card.Title>
-              <Card.Subtitle className='mb-2 text-muted'>WCC 2011</Card.Subtitle>
+              <Card.Subtitle className='mb-2 text-white'>WCC 2011</Card.Subtitle>
             </Card.Body>
           </Card>
           
-          <Card className='mb-4 shadow-sm'>
+          <Card className='mb-4 shadow-sm bg-black text-white'>
             <Card.Body>
               <Card.Title>Full Stack Development Course</Card.Title>
-              <Card.Subtitle className='mb-2 text-muted'>Guvi (2024)</Card.Subtitle>
+              <Card.Subtitle className='mb-2 text-white'>Guvi (2024)</Card.Subtitle>
             </Card.Body>
           </Card>
         </Col>
@@ -28,7 +28,7 @@ const Education = () => {
       <div className="container mt-5">
     
 
-      <p>✅Designed and developed a fully functional calculator (using JS, HTML, CSS).</p>
+      {/* <p>✅Designed and developed a fully functional calculator (using JS, HTML, CSS).</p>
       <p>✅Created New Year Countdown App (Using JS, HTML, CSS).</p>
       <p>✅Developed a food cart app. Added CRUD operations (using React.js, Redux, and Router).</p>
       <p>✅Build a Currency Converter (Using JS, HTML, CSS).</p>
@@ -38,7 +38,7 @@ const Education = () => {
         for better visualization (JS, HTML, CSS).</p>
         <p>✅Built a to-do list app that allows users to add, update, 
         and delete tasks, with a simple and intuitive interface.
-        interface (React, Use Context)</p>
+        interface (React, Use Context)</p> */}
     </div>
     <Experience/>
 

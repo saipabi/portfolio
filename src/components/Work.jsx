@@ -7,7 +7,7 @@ const Work = () => {
       <Row className="justify-content-center">
         {/* Work With Me Section */}
         <Col md={5} className="mb-4">
-          <Card className="p-4 shadow-sm border-0 h-100">
+          <Card className="p-4 shadow-sm border-0 h-80 w-80 bg-black text-primary">
             <Card.Body>
               <h2 id="textit" className="text-primary fw-bold" style={{ lineHeight: '1.2' }}>
                 WORK<br />WITH ME
@@ -46,7 +46,7 @@ const Work = () => {
 
         {/* Work Experience Section */}
         <Col md={5} className="mb-4">
-          <Card className="p-4 shadow-sm border-0 h-100">
+          <Card className="p-4 shadow-sm border-0 h-100 bg-black text-primary">
             <Card.Body>
               <h2 className="text-primary fw-bold" id="textit" style={{ lineHeight: '1.2' }}>
                 WORK<br />EXPERIENCE

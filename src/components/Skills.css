@@ -1,0 +1,72 @@
+.skill-card {
+    /* background: #ffffff; */
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .skill-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Heading inside the card */
+  .skill-card h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Skill list */
+  .skill-card ul {
+    padding: 0;
+    list-style: none;
+    text-align: left;
+  }
+  
+  .skill-card li {
+    font-size: 0.9rem;
+    margin: 5px 0;
+  }
+  
+  /* Individual Colors */
+  .frontend {
+    border-top: 5px solid  hsl(283, 100%, 57%);
+    background-color: hsl(14, 100%, 57%);
+    height:300px;
+  }
+  
+  .backend {
+    border-top: 5px solid #009688;
+    background-color: yellow;
+    height: 300px;
+  }
+  
+  .database {
+    border-top: 5px solid #673ab7;
+    background-color: rgb(22, 212, 16);
+    height: 300px;
+  }
+  
+  .tools {
+    border-top: 5px solid #ffeb3b;
+    background-color: aqua;
+    height: 300px;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .skill-card {
+      padding: 15px;
+    }
+  
+    .skill-card h4 {
+      font-size: 1rem;
+    }
+  
+    .skill-card li {
+      font-size: 0.85rem;
+    }
+  }
+  

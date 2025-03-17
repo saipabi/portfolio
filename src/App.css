@@ -1,4 +1,7 @@
-.moving-text {
+body{
+  background-color: black;
+  color: cornsilk;
+}.moving-text {
     font-size: 4em;
     font-family: 'Noto Sans Variable', sans-serif;
     display: flex;
@@ -9,19 +12,7 @@
     animation: moveText 3s ease-in-out forwards;
   }
 
-  @keyframes moveText {
-    0% {
-      transform: translateX(5%);
-      transform-origin: 0 0
-    }
-    50% {
-      transform: translateX(-20%);
-    }
-    100% {
-      transform: translateX(0%);
-    }
-  }
-
+ 
   
 .moving-text {
     font-family: "Josefin Sans", serif;
@@ -30,28 +21,9 @@
     font-style: normal;
   }
 
-  #text {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ 
   
-    animation: Text 5s ease-in-out forwards;
-  }
-  
-  @keyframes Text {
-    0% {
-      transform: translateX(100%);
-      transform-origin: 0 0;
-    }
-    50% {
-      transform: translateX(-20%);
-    }
-    100% {
-      transform: translateX(0%);
-    }
-    
-  }
+ 
   .skills-list {
     list-style: none;
     padding-left: 0;
@@ -68,26 +40,5 @@
     padding-bottom: 5px;
     margin-bottom: 15px;
   }
+ 
   
-  #textit{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-    animation: Textit 5s ease-in-out infinite;
-  }
-  
-  @keyframes Textit {
-    0% {
-      transform: translateX(100%);
-      transform-origin: 0 0;
-    }
-    50% {
-      transform: translateX(-20%);
-    }
-    100% {
-      transform: translateX(0%);
-    }
-    
-  }

@@ -14,7 +14,7 @@ const MyNavbar = () => {
             <Nav.Link href="#experience">Skills</Nav.Link>
             <Nav.Link href="#exper">Experience</Nav.Link>
             {/* <Nav.Link href="#contact">Contact</Nav.Link> */}
-            <Nav.Link href="#hobbies">Hobbies</Nav.Link>
+            {/* <Nav.Link href="#hobbies">Hobbies</Nav.Link> */}
             <Nav.Link href="#work">Contacts</Nav.Link>
             {/* <Nav.Link href="#experience">Skills</Nav.Link> */}
           </Nav>
