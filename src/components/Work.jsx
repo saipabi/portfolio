@@ -3,7 +3,7 @@ import { FaLinkedin, FaPhoneAlt, FaEnvelope, FaGithub, FaLink } from 'react-icon
 
 const Work = () => {
   return (
-    <Container fluid className="d-flex justify-content-center align-items-center vh-100">
+    <Container fluid className="d-flex justify-content-center align-items-center vh-100 " id='done'>
       <Row className="justify-content-center align-items-center w-100">
         {/* Work With Me Section */}
         <Col md={5} className="mb-4">
