@@ -19,19 +19,9 @@ const Home = () => {
 About Me</h1>
           <p>👋 Hi, I'm Suriya!
 
-I'm a full-stack developer with a
-background in Human Resource
-Management. After working as an
-HR Recruiter at Everonn Education
- I transitioned into the
-world of software development,
-driven by my passion for problem-
-solving and technology.
+          I'm a full-stack developer with a background in Human Resource Management. After working as an HR Recruiter at Everonn Education, I transitioned into the world of software development, driven by my passion for problem-solving and technology.
 
-I specialize in MERN stack
-development, building scalable
-web applications.
-
+I specialize in MERN stack development, building scalable web applications.
 </p>
 
      
